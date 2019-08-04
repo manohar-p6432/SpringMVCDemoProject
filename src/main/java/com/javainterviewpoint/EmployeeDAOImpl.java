@@ -16,7 +16,7 @@ public class EmployeeDAOImpl implements EmployeeDAO
 {
 
     private JdbcTemplate jdbcTemplate;
-    // JdbcTemplate setter
+   
     public void setJdbcTemplate(JdbcTemplate jdbcTemplate)
     {
         this.jdbcTemplate = jdbcTemplate;
