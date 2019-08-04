@@ -6,11 +6,10 @@ public class Employee implements Serializable
 {
     private static final long serialVersionUID = -1280037900360314186L;
 
-    private int id;
-
+    private Integer id;
     private String name;
     private Integer age;
-    private int dept;
+    private String dept;
     public Employee()
     {
         super();
