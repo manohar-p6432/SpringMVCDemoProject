@@ -6,8 +6,12 @@ public class Employee implements Serializable
 {
     private static final long serialVersionUID = -1280037900360314186L;
 
+<<<<<<< HEAD
     private int id;
 
+=======
+    private Integer id;
+>>>>>>> parent of 17b816b... Changes in Employee Class
     private String name;
     private Integer age;
     private int dept;
